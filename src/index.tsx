@@ -5,7 +5,7 @@ import throttle from "lodash.throttle";
  * @param elementIds
  * @returns the index of the selected id in the array
  */
-export const useSimplyScrollSpy = (elementIds: string[]) => {
+export const useSimpleScrollSpy = (elementIds: string[]) => {
   const [activeSection, setActiveSection] = useState(() => {
     const currentHash = location.hash;
     const targetIndex = currentHash
@@ -68,3 +68,5 @@ export const useSimplyScrollSpy = (elementIds: string[]) => {
 
   return activeSection;
 };
+
+export default useSimpleScrollSpy;
