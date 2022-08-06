@@ -1,0 +1,36 @@
+{
+  "name": "use-simple-scroll-spy",
+  "version": "1.0.0",
+  "description": "Tiny react hook that provides scroll spying",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/underfisk/use-simple-scroll-spy"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "pnpm run build"
+  },
+  "devDependencies": {
+    "@types/lodash.throttle": "^4.1.7",
+    "@types/react": "^18.0.15",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "react": ">= 16.x"
+  },
+  "keywords": [
+    "react",
+    "react scroll spy",
+    "scroll spy",
+    "scroll"
+  ],
+  "author": "underfisk",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.throttle": "^4.1.1"
+  }
+}
