@@ -2,7 +2,7 @@
 
 Tiny scroll spy react hook that just needs the element ids
 
-## Installation
+## Installation [NPM](https://www.npmjs.com/package/use-simple-scroll-spy)
 
 ```
 pnpm i use-simply-scroll-spy
