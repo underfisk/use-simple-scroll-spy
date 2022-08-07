@@ -32,5 +32,3 @@ const MyComponent: React.FC = () => {
 ```
 
 The code above is a very simply way of using this hook but the general idea is to track based on the URL hash. If you hit the page with `#section-2` as the default section, the `activeIndex` will be set propertly.
-
-My personal motivation for this project was the need in a very framework-agnostic in order to create an header with the active section
